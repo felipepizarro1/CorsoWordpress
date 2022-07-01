@@ -11,28 +11,30 @@
 </head>
 <body style="font-family:'Merriweather Sans', sans-serif;">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg bg-transparent fixed-top navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Chi siamo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servizi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contatti</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
         <section class="position-relative min-vw-100">
@@ -52,20 +54,53 @@
             <a class="btn btn-light rounded-pill py-3 px-4 text-black fw-bold mt-4" href="#">GET STARTED!</a>
           </div>
         </section>
-        <section>
+        <section class="py-5">
           <div class="text-center py-5">
             <h2>At Your Service</h2>
             <hr class="mx-auto" style="height: 5px; width: 50px; background-color: orange; opacity: 1; border:none;">
           </div>
-          <div>
-            <div class="text-center">
-              <i class="fa-regular fa-gem fs-3" style="color:orange"></i>
-              <h5>TITOLO</h5>
+          <div class="d-flex container flex-wrap py-5">
+            <div class="text-center flex-shrink-1 flex-grow-1" style="width: 300px;" >
+              <i class="fa-regular fa-gem fs-3 my-2" style="color:orange"></i>
+              <h4>TITOLO</h4>
+              <P>Lorem ipsum dolor sit amet.</P>
+
+            </div>
+            <div class="text-center flex-shrink-1  flex-grow-1" style="width: 300px;">
+              <i class="fa-regular fa-gem fs-3 my-2" style="color:orange"></i>
+              <h4>TITOLO</h4>
+              <P>Lorem ipsum dolor sit amet.</P>
+
+            </div>
+            <div class="text-center flex-shrink-1 flex-grow-1"style="width: 300px;">
+              <i class="fa-regular fa-gem fs-3 my-2" style="color:orange"></i>
+              <h4>TITOLO</h4>
+              <P>Lorem ipsum dolor sit amet.</P>
+
+            </div>
+            <div class="text-center flex-shrink-1 flex-grow-1"style="width: 300px;">
+              <i class="fa-regular fa-gem fs-3 my-2" style="color:orange"></i>
+              <h4>TITOLO</h4>
               <P>Lorem ipsum dolor sit amet.</P>
 
             </div>
           </div>
 
+        </section>
+        <section class="d-flex flex-wrap">
+          <img src="1.jpg" alt="" style="width: 33.3%;">
+          <img src="2.jpg" alt="" style="width: 33.3%;">
+          <img src="3.jpg" alt="" style="width: 33.3%;">
+          <img src="4.jpg" alt="" style="width: 33.3%;">
+          <img src="5.jpg" alt="" style="width: 33.3%;">
+          <img src="6.jpg" alt="" style="width: 33.3%;">
+        </section>
+        <section class="d-flex justify-content-center align-items-center " style="min-height: 50vh; background-color:darkslategray;">
+          <div class="text-center text-white">
+            <h5>Free Download at Start Bootstrap!</h5>
+            <a class="btn btn-light rounded-pill py-3 px-4 fw-bold mt-4" href="#">DOWNLOAD NOW</a>
+          </div>
+          
         </section>
 
     </main>
