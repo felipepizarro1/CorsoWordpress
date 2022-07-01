@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div a img {
+
+    width: 120px;
+    height: auto;
+}
+
+header nav ul  {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+header nav ul li {
+    margin-left: 25px;
+    
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}

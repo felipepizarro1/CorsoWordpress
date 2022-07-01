@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.preheader {
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    
+    
+
+}
+
+.preheader nav ul li img {
+
+    width: 20px;
+    height: auto;
+
+}
+
+.preheader nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 145px;
+}
+
+.preheader nav ul li {
+    margin-left: 45px;
+}
+.preheader div {
+    margin-right: 250px;
+}
+
+.preheader div img{
+    width: 20px;
+    margin: 5px;
+}
+
+.preheader span a {
+    text-decoration: none;
+    color: red;
+}
+
+.preheader span a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-color: red;
+
+}
+
+header div a img {
+    margin: 25px;
+    width: 150px;
+    height: auto;
+    margin-left: 180px;
+}
+
+header nav {
+    margin-right: 265px;
+}
+
+header nav ul  {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+    
+}
+
+header nav ul li {
+    margin-left: 55px;
+    
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:hover {
+    background-color: red;
+}

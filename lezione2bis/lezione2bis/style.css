@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* main > div {
+    position: relative;
+    width: 50%;
+}
+
+main > div > img {
+
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: 0;
+
+}
+
+main > div > p {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:aliceblue;
+
+} */
+
+main {
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('sfondo.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+main > div > p {
+
+    color:beige;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+
+main > div > i {
+    color: white;
+    font-size: 100px;
+}
